@@ -1,6 +1,6 @@
 package Foo;
 use Moose;
-with 'MooseX::Role::Delegator';
+with 'MooseX::Role::MissingMethodUtils';
 
 sub method_missing {
     my ($self, $method_name, @params) = @_;
