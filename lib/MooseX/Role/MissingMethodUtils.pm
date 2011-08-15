@@ -24,10 +24,6 @@ sub AUTOLOAD
 
 # ABSTRACT: Getting rid of boilerplate AUTOLOAD stuff
 
-=head1 NAME
-
-MooseX::Role::MissingMethodUtils
-
 =head1 SYNOPSIS
 
     package Foo;
@@ -59,17 +55,6 @@ Just does all the boilerplate autoloading stuff.
 =head1  TODO
 
 Add some other useful methods and filter capabilities.
-
-=head1 AUTHOR
-
-Logan Bell C<< <logan.bell@gmail.com> >>
-
-=head1 COPYRIGHT & LICENSE
-
-Copyright 2011, Logan Bell C<< <logan.bell@gmail.com> >>
-
-This program is free software; you can redistribute it and/or modify
-it under the same terms as Perl itself.
 
 =cut
 
