@@ -18,6 +18,14 @@ sub method_missing {
     return;
 }
 
+sub responds_to {
+    my ( $self, $method_name ) = @_;
+
+    if ( $method_name eq 'foobar3' ) {
+        return sub { return 'foobar_3' };
+    }
+}
+
 __PACKAGE__->meta->make_immutable;
 no Moose;
 
